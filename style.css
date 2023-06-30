@@ -1,0 +1,224 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body {
+  background-color: #302c42;
+}
+
+.listContainer {
+  list-style: none;
+  color: #fff;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.listContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 41px;
+  color: aliceblue;
+}
+.buttonContact {
+  border-radius: 40px;
+  border: 2px solid #fff;
+  width: 154px;
+  height: 48px;
+  flex-shrink: 0;
+  background: #302c42;
+  color: #fff;
+}
+.buttonJoin {
+  width: 154px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+.headerButtonContainer {
+  display: flex;
+  gap: 38px;
+}
+.imgContainer {
+  display: flex;
+  gap: 15px;
+}
+.containerMAin {
+  display: flex;
+  justify-content: center;
+  gap: 680px;
+  margin-top: 174px;
+}
+
+.mainButton {
+  border-radius: 40px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  width: 214px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.vectorOne {
+  position: absolute;
+  left: 67rem;
+  top: 15rem;
+  z-index: -1;
+}
+.vectorTwo {
+  position: absolute;
+  right: 3rem;
+  top: 26rem;
+  z-index: -2;
+}
+.shadowImg {
+  position: absolute;
+  right: 10rem;
+  z-index: 933;
+  border-radius: 100px 100px 100px 240px;
+  background: #a3a3a3;
+  -webkit-box-shadow: -32px 25px 8px 6px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -32px 25px 8px 6px rgba(34, 60, 80, 0.2);
+  box-shadow: -32px 25px 8px 6px rgba(34, 60, 80, 0.2);
+}
+.vector {
+  position: absolute;
+  top: 9rem;
+  right: 9rem;
+}
+.paragraphStyled {
+  width: 24rem;
+}
+.mainTextStyle {
+  color: #fff;
+  font-size: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  width: 37rem;
+}
+i {
+  color: #c0b7e8;
+  line-height: 4px;
+}
+main p {
+  color: #fff;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.vectorText {
+  position: absolute;
+  top: 16rem;
+  left: 2px;
+}
+.vectorButton {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.footerContainer {
+  margin-top: 180px;
+  margin-left: 89px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1272px;
+  height: 167px;
+  flex-shrink: 0;
+  border-radius: 90px;
+  background: radial-gradient(
+    2900.76% 50.13% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+.footeMiniContainer {
+  display: flex;
+  gap: 29px;
+  color: #fff;
+}
+.footerImg {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.headerFoonter {
+  color: #fff;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.paragraphFooter {
+  color: #fff;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.secondMainContainer {
+  margin-top: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 310px;
+  height: 511px;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+}
+.paragrapgMain {
+  color: #fff;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 200px;
+}
+.sectionContainer {
+  margin-top: 10%;
+  margin-left: 7rem;
+  background-image: url(./image/pexels-rodnae-productions-8097332\ 1.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 140px;
+  color: #fff;
+}
+.sectionHeader {
+  color: #fff;
+  font-size: 36px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.sectionParagraph {
+  color: #fff;
+  font-size: 36px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
